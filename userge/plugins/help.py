@@ -59,21 +59,21 @@ _CATEGORY = {
 SAVED_SETTINGS = get_collection("CONFIGS")
 REPO_X = InlineQueryResultArticle(
     title="Repo",
-    input_message_content=InputTextMessageContent("**Here's how to setup USERGE-X** "),
-    url="https://github.com/code-rgb/USERGE-X",
+    input_message_content=InputTextMessageContent("**Here's how to setup 🇱 🇪 🇴𝚉 ᴬˢˢᴵˢᵀᴬᴺᵀ** "),
+    url="https://github.com/wonkru-bot/my-vertion-of-Userge-x",
     description="Setup Your Own",
-    thumb_url="https://i.imgur.com/1xsOo9o.png",
+    thumb_url="https://telegra.ph/file/d7a2801cda6a720dc8ebe.jpg",
     reply_markup=InlineKeyboardMarkup(
         [
             [
                 InlineKeyboardButton(
-                    "🔥 USERGE-X Repo", url="https://github.com/code-rgb/USERGE-X"
+                    "🔥 🇱 🇪 🇴𝚉 ᴬˢˢᴵˢᵀᴬᴺᵀ Repo", url="https://github.com/wonkru-bot/my-vertion-of-Userge-x"
                 ),
                 InlineKeyboardButton(
-                    "🚀 Deploy USERGE-X",
+                    "🚀 Deploy 🇱 🇪 🇴𝚉 ᴬˢˢᴵˢᵀᴬᴺᵀ",
                     url=(
                         "https://heroku.com/deploy?template="
-                        "https://github.com/code-rgb/USERGE-X/tree/alpha"
+                        "https://github.com/wonkru-bot/my-vertion-of-Userge-x/tree/alpha"
                     ),
                 ),
             ]
@@ -215,7 +215,7 @@ if userge.has_bot:
             await callback_query.answer("you are in main menu", show_alert=True)
             return
         if len(pos_list) == 2:
-            text = " 𝐔𝐒𝐄𝐑𝐆𝐄-𝐗  𝗠𝗔𝗜𝗡 𝗠𝗘𝗡𝗨"
+            text = "🇱 🇪 🇴𝚉 ᴬˢˢᴵˢᵀᴬᴺᵀ  𝗠𝗔𝗜𝗡 𝗠𝗘𝗡𝗨"
             buttons = main_menu_buttons()
         elif len(pos_list) == 3:
             text, buttons = category_data(cur_pos)
@@ -288,7 +288,7 @@ if userge.has_bot:
 
         await xbot.edit_inline_text(
             callback_query.inline_message_id,
-            text=" 𝐔𝐒𝐄𝐑𝐆𝐄-𝐗  𝗠𝗔𝗜𝗡 𝗠𝗘𝗡𝗨 ",
+            text="🇱 🇪 🇴𝚉 ᴬˢˢᴵˢᵀᴬᴺᵀ 𝗠𝗔𝗜𝗡 𝗠𝗘𝗡𝗨 ",
             reply_markup=InlineKeyboardMarkup(main_menu_buttons()),
         )
 
@@ -567,11 +567,11 @@ if userge.has_bot:
             or inline_query.from_user.id in Config.SUDO_USERS
         ):
 
-            if string == "syntax":
+            if string == "💕":
                 owner = [
                     [
                         InlineKeyboardButton(
-                            text="Contact", url="https://t.me/deleteduser420"
+                            text="Contact", url="https://t.me/WONKRU_HERE"
                         )
                     ]
                 ]
@@ -596,7 +596,7 @@ if userge.has_bot:
                 ]
                 results.append(
                     InlineQueryResultPhoto(
-                        photo_url="https://i.imgur.com/Zg58iXc.jpg",
+                        photo_url="https://telegra.ph/file/3534cc09d513704a68127.jpg",
                         caption="**ARE YOU OLD ENOUGH FOR THIS ?**",
                         reply_markup=InlineKeyboardMarkup(buttons),
                     )
@@ -623,7 +623,7 @@ if userge.has_bot:
                             input_message_content=InputTextMessageContent(
                                 "**Error Code: Status != 200**"
                             ),
-                            thumb_url="https://i.imgur.com/7a7aPVa.png",
+                            thumb_url="https://telegra.ph/file/84ce6cfa0292fb400ea04.jpg",
                         )
                     )
                 else:
@@ -638,7 +638,7 @@ if userge.has_bot:
                                     f"**Error Code: {code}**\n`{code_message}`"
                                 ),
                                 description="Enter A Valid Subreddit Name !",
-                                thumb_url="https://i.imgur.com/7a7aPVa.png",
+                                thumb_url="https://i.imgur.com/1xsOo9o.png",
                             )
                         )
                     else:
@@ -700,7 +700,7 @@ if userge.has_bot:
             #             title="Not a Rick Roll",
             #             input_message_content=InputTextMessageContent("Search Results"),
             #             description="Definately Not a Rick Roll",
-            #             thumb_url="https://i.imgur.com/hRCaKAy.png",
+            #             thumb_url="https://telegra.ph/file/84ce6cfa0292fb400ea04.jpg",
             #             reply_markup=InlineKeyboardMarkup(rick),
             #         )
             #     )
@@ -741,7 +741,7 @@ if userge.has_bot:
                     else:
                         results.append(
                             InlineQueryResultCachedDocument(
-                                title="USERGE-X",
+                                title="🇱 🇪 🇴𝚉 ᴬˢˢᴵˢᵀᴬᴺᵀ",
                                 file_id=MEDIA_URL,
                                 caption=alive_info,
                                 description="ALIVE",
@@ -751,7 +751,7 @@ if userge.has_bot:
                 elif MEDIA_TYPE == "no_media":
                     results.append(
                         InlineQueryResultArticle(
-                            title="USERGE-X",
+                            title="🇱 🇪 🇴𝚉 ᴬˢˢᴵˢᵀᴬᴺᵀ",
                             input_message_content=InputTextMessageContent(
                                 alive_info, disable_web_page_preview=True
                             ),
@@ -771,7 +771,7 @@ if userge.has_bot:
             if string == "geass":
                 results.append(
                     InlineQueryResultAnimation(
-                        animation_url="https://i.imgur.com/DeZHcRK.gif",
+                        animation_url="https://telegra.ph/file/3534cc09d513704a68127.jpg",
                         caption="To defeat evil, I must become a greater evil",
                     )
                 )
@@ -828,10 +828,10 @@ if userge.has_bot:
                     InlineQueryResultArticle(
                         title="GApps",
                         input_message_content=InputTextMessageContent(
-                            "[\u200c](https://i.imgur.com/BZBMrfn.jpg) **LATEST Android 10 arm64 GApps**"
+                            "[\u200c](https://telegra.ph/file/84ce6cfa0292fb400ea04.jpg) **LATEST Android 10 arm64 GApps**"
                         ),
                         description="Get Latest GApps Download Links Directly from SF",
-                        thumb_url="https://i.imgur.com/Npzw8Ph.png",
+                        thumb_url="https://telegra.ph/file/d7a2801cda6a720dc8ebe.jpg",
                         reply_markup=InlineKeyboardMarkup(buttons),
                     )
                 )
@@ -839,7 +839,7 @@ if userge.has_bot:
             if len(string_split) == 2 and (string_split[0] == "ofox"):
                 codename = string_split[1]
                 t = TelegraphPoster(use_api=True)
-                t.create_api_token("Userge-X")
+                t.create_api_token("🇱 🇪 🇴𝚉 ᴬˢˢᴵˢᵀᴬᴺᵀ")
                 photo = "https://i.imgur.com/582uaSk.png"
                 api_host = "https://api.orangefox.download/v2/device/"
                 try:
@@ -873,7 +873,7 @@ if userge.has_bot:
                 results.append(
                     InlineQueryResultPhoto(
                         photo_url=photo,
-                        thumb_url="https://i.imgur.com/o0onLYB.jpg",
+                        thumb_url="https://telegra.ph/file/d7a2801cda6a720dc8ebe.jpg",
                         title="Latest OFOX RECOVERY",
                         description=f"For device : {codename}",
                         caption=msg,
@@ -940,7 +940,7 @@ if userge.has_bot:
                                     "<b>Click To View The Spoiler !</b>"
                                 ),
                                 description="Click To Send",
-                                thumb_url="https://telegra.ph/file/ee3a6439494463acd1a3a.jpg",
+                                thumb_url="https://telegra.ph/file/84ce6cfa0292fb400ea04.jpg",
                                 reply_markup=InlineKeyboardMarkup(buttons),
                             )
                         )
@@ -969,7 +969,7 @@ if userge.has_bot:
                                             "<b>Click To View The Spoiler !</b>"
                                         ),
                                         description=f"Created At: {savetime}",
-                                        thumb_url="https://telegra.ph/file/ee3a6439494463acd1a3a.jpg",
+                                        thumb_url="https://telegra.ph/file/84ce6cfa0292fb400ea04.jpg",
                                         reply_markup=InlineKeyboardMarkup(buttons),
                                     )
                                 )
@@ -1002,7 +1002,7 @@ if userge.has_bot:
                         title="Ask For Opinion",
                         input_message_content=InputTextMessageContent(txt),
                         description=f"Q. {txt}",
-                        thumb_url="https://i.imgur.com/Zlc98qS.jpg",
+                        thumb_url="https://telegra.ph/file/84ce6cfa0292fb400ea04.jpg",
                         reply_markup=InlineKeyboardMarkup(buttons),
                     )
                 )
@@ -1149,7 +1149,7 @@ if userge.has_bot:
                             f"📩 <b>Secret Msg</b> for {user_name}. Only he/she can open it."
                         ),
                         description=f"Send Secret Message to: {user_name}",
-                        thumb_url="https://i.imgur.com/c5pZebC.png",
+                        thumb_url="https://telegra.ph/file/d7a2801cda6a720dc8ebe.jpg",
                         reply_markup=InlineKeyboardMarkup(buttons),
                     )
                 )
@@ -1215,10 +1215,10 @@ if userge.has_bot:
 
             MAIN_MENU = InlineQueryResultArticle(
                 title="Main Menu",
-                input_message_content=InputTextMessageContent(" 𝐔𝐒𝐄𝐑𝐆𝐄-𝐗  𝗠𝗔𝗜𝗡 𝗠𝗘𝗡𝗨 "),
-                url="https://github.com/code-rgb/USERGE-X",
-                description="Userge-X Main Menu",
-                thumb_url="https://i.imgur.com/1xsOo9o.png",
+                input_message_content=InputTextMessageContent(" 🇱 🇪 🇴𝚉 ᴬˢˢᴵˢᵀᴬᴺᵀ 𝗠𝗔𝗜𝗡 𝗠𝗘𝗡𝗨 "),
+                url="https://github.com/wonkru-bot/my-vertion-of-Userge-x",
+                description="🇱 🇪 🇴𝚉 ᴬˢˢᴵˢᵀᴬᴺᵀ Main Menu",
+                thumb_url="https://telegra.ph/file/d7a2801cda6a720dc8ebe.jpg",
                 reply_markup=InlineKeyboardMarkup(main_menu_buttons()),
             )
             results.append(MAIN_MENU)
