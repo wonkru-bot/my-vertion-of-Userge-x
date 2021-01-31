@@ -162,8 +162,8 @@ What'sup Bitch! I'm **{bot.first_name}**.
             )
         else:
             await callback_query.answer(
-                "🤘ONLY LEO CAN DO THAT 💯!",
-                show_alert=True,
+                "🤘ONLY LEO CAN DO THAT 💯!"
+
             )
 
 
