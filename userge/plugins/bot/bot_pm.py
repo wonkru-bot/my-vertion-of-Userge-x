@@ -43,18 +43,18 @@ if userge.has_bot:
         f_username = message.from_user.username
         u_n = master.username
         hello = f"""
-Hello {f_name},
-Nice To Meet You! I'm **{bot.first_name}** A Bot.
+Yo {f_name},
+What'sup Bitch! I'm **{bot.first_name}**.
 
-        <i><b>Powered by</i> [USERGE-X](https://t.me/x_xtests)</b>
+        <i><b>I'm AI Powered bot Works for Ma love😘</i> [LEO](https://t.me/WONKRU_HERE)</b>
 
 <b>My Master is: {master.first_name}</b>
-<i>You can contact my <b>Master</b> and checkout the <b>Repo</b> For more info.</i>
+<i>You can contact my😍 <b>Love</b> 🤩and don't make him mad.</i>
 """
         if Config.BOT_FORWARDS:
             hello += "\n<b>NOTE: </b> "
             hello += "**Bot Forwarding is** :  ☑️ `Enabled`\n"
-            hello += "All your messages here will be forwarded to my **MASTER**"
+            hello += "All your messages here will be forwarded to my **Love**"
         if u_id not in Config.OWNER_ID:
             found = await BOT_START.find_one({"user_id": u_id})
             if not found:
@@ -67,7 +67,7 @@ Nice To Meet You! I'm **{bot.first_name}** A Bot.
                 )
                 await asyncio.sleep(2)
                 log_msg = (
-                    f"A New User Started your Bot \n\n• <i>ID</i>: `{u_id}`\n   👤 : "
+                    f"A New Bitch Started your Bot \n\n• <i>ID</i>: `{u_id}`\n   👤 : "
                 )
                 log_msg += f"@{f_username}" if f_username else f_name
                 await CHANNEL.log(log_msg)
@@ -130,9 +130,9 @@ Nice To Meet You! I'm **{bot.first_name}** A Bot.
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("CONTACT", url=f"t.me/{u_n}"),
+                            InlineKeyboardButton("CONTACT", url=f"t.me/Xequist"),
                             InlineKeyboardButton(
-                                "REPO", url="https://github.com/code-rgb/USERGE-X"
+                                "🤩Ma Luv😍", url=f"t.me/WONKRU_HERE"
                             ),
                         ],
                         [
@@ -162,7 +162,7 @@ Nice To Meet You! I'm **{bot.first_name}** A Bot.
             )
         else:
             await callback_query.answer(
-                "ONLY MY MASTER CAN DO THAT ! \n\n 𝘿𝙚𝙥𝙡𝙤𝙮 𝙮𝙤𝙪𝙧 𝙤𝙬𝙣 𝙐𝙎𝙀𝙍𝙂𝙀-𝙓 !",
+                "🤘ONLY LEO CAN DO THAT 💯!",
                 show_alert=True,
             )
 
