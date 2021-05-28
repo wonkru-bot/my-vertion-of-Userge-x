@@ -5,7 +5,7 @@
    <br>
    <br>
 </p>
-<h1>USERGE-X</h1>
+<h1>🇱 🇪 🇴𝚉 ᴬˢˢᴵˢᵀᴬᴺᵀ</h1>
 <b>Pluggable Telegram UserBot</b>
 <br>
 <br>
