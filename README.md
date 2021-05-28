@@ -1,7 +1,7 @@
-<h2 align="center"><b>Owner: <a href="https://telegram.dog/deleteduser420">𝚂𝚢𝚗𝚝𝚊𝚡 ░ Σrr♢r</a></b></h2>
+<h2 align="center"><b>Owner: <a href="https://t.me/InlineLeosbot">Leo's ░ BiTch</a></b></h2>
 <br>
 <p align="center">
-   <a href="https://github.com/code-rgb/USERGE-X"><img src="https://i.imgur.com/53mdl2v.png" alt="Userge-x" width=400px></a>
+   <a href="https://github.com/code-rgb/USERGE-X"><img src="https://t.me/CinemaXtreet/209" alt="Userge-x" width=400px></a>
    <br>
    <br>
 </p>
