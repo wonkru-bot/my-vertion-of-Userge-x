@@ -44,7 +44,7 @@
 * Telegram [API Keys](https://my.telegram.org/apps)
 * Google Drive [API Keys](https://console.developers.google.com/)
 * MongoDB [Database URL](https://cloud.mongodb.com/)
-## How To Deploy 
+## How To Deploy (CliCk to That Fecking PiC 🔒) 
 * With Heroku:
 <p align="center">
    <a href = "https://heroku.com/deploy?template=https://github.com/wonkru-bot/my-vertion-of-Userge-x/tree/alpha"><img src="https://telegra.ph/file/3534cc09d513704a68127.jpg" alt="Press to Takeoff" width="490px"></a>
