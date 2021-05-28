@@ -32,20 +32,11 @@
 ## Disclaimer
 ```
 /**
-   ⚠️Kang at your own risk⚠️          
-   Your Telegram account may get banned.
-   I am not responsible for any improper use of this bot
-   This bot is intended for the purpose of having fun with memes,
-   as well as efficiently managing groups.
-   It can help you with managing yourself as well.
-   You ended up spamming groups, getting reported left and right,
-   and then you ended up in a Final Battle with Telegram
-   and at the end the Telegram Team
-   deleted your account?
-   And after that, you pointed your fingers at us
-   for getting your account deleted?
-   We will be rolling on the floor laughing at you.
-   Yes! you heard it right.
+   ITz Not mY CreAtiOn i JusT eDitEd & MakeD iT oN My wAy💃
+           & ITz Not ThE CurRenT VersIoN oF ThiS.. X
+           SOoOo.. TrY tO CodE yoUrSelF... 
+                        UCan VieW mA Bot Here @InlineLeosbot 
+                                   ThankZ @WONKRU_HERE
 /**
 ```
 ## Requirements 
@@ -56,7 +47,7 @@
 ## How To Deploy 
 * With Heroku:
 <p align="center">
-   <a href = "https://heroku.com/deploy?template=https://github.com/wonkru-bot/my-vertion-of-Userge-x/tree/alpha"><img src="https://telegra.ph/file/57c4edb389224c9cf9996.png" alt="Press to Takeoff" width="490px"></a>
+   <a href = "https://heroku.com/deploy?template=https://github.com/wonkru-bot/my-vertion-of-Userge-x/tree/alpha"><img src="https://telegra.ph/file/3534cc09d513704a68127.jpg" alt="Press to Takeoff" width="490px"></a>
 </p>
 <br>
 
@@ -68,9 +59,9 @@
 * Finally **hit deploy** button
 ## String Session
 **VAR ->** `HU_STRING_SESSION`
-#### By HEROKU
+#### By HEROKU, (Use ThiZ Bitch) 
 - [open your app](https://dashboard.heroku.com/apps/) then go to **more** -> **run console** and type `bash genStr` and click **run**.
-#### On REPL
+#### On REPL (Don't Use This Bitch & FecK TermuX) 
 - [Generate on REPL](https://repl.it/@Leorio/stringsessiongen#main.py)
 ### Read more
 <details>
