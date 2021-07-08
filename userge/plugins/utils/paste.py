@@ -15,8 +15,8 @@ from aiohttp import ClientResponseError, ServerTimeoutError, TooManyRedirects
 
 from userge import Config, Message, userge
 
-DOGBIN_URL = "https://del.dog/"
-NEKOBIN_URL = "https://nekobin.com/"
+DOGBIN_URL = "https://ezup.dev/"
+NEKOBIN_URL = "https://ezup.dev/"
 
 
 @userge.on_cmd(
@@ -64,7 +64,7 @@ async def paste_(message: Message) -> None:
                     response = await resp.json()
                     key = response["result"]["key"]
                     final_url = NEKOBIN_URL + key + file_ext
-                    reply_text = f"**Nekobin** [URL]({final_url})"
+                    reply_text = f"**Bitch** [URL]({final_url})"
                     await message.edit(reply_text, disable_web_page_preview=True)
                 else:
                     await message.err("Failed to reach Nekobin")
@@ -79,7 +79,7 @@ async def paste_(message: Message) -> None:
                     if response["isUrl"]:
                         reply_text = (
                             f"**Shortened** [URL]({final_url})\n"
-                            f"**Dogbin** [URL]({DOGBIN_URL}v/{key})"
+                            f"**BitcheZ_On-The_Floor** [URL]({DOGBIN_URL}v/{key})"
                         )
                     else:
                         reply_text = f"**Dogbin** [URL]({final_url}{file_ext})"
