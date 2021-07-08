@@ -15,7 +15,7 @@ from aiohttp import ClientResponseError, ServerTimeoutError, TooManyRedirects
 
 from userge import Config, Message, userge
 
-DOGBIN_URL = "https://ezup.dev/"
+DOGBIN_URL = "https://del.dog/"
 NEKOBIN_URL = "https://ezup.dev/"
 
 
