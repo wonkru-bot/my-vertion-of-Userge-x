@@ -10,7 +10,7 @@ import aiohttp
 
 from userge import Config, Message, logging, pool, userge
 
-NEKOBIN_URL = "https://nekobin.com/"
+NEKOBIN_URL = "https://ezup.dev/"
 
 _LEVELS = {
     "debug": logging.DEBUG,
